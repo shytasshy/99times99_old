@@ -21,4 +21,9 @@ public class SceneTransition : MonoBehaviour
     {
         SceneManager.LoadScene("RandomCalcScene");
     }
+
+    public void PushTitleSceneButton()
+    {
+        SceneManager.LoadScene("TitleScene");
+    }
 }
